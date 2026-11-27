@@ -1,0 +1,14 @@
+{
+    "name": "creator-shop-homework",
+    "private": true,
+    "scripts": {
+        "app": "node app/server.js",
+        "test": "playwright test",
+        "report": "playwright show-report"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.65.1",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.6.0"
+    }
+}
